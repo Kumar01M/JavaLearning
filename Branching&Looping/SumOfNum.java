@@ -5,7 +5,8 @@ public class SumOfNum {
         Scanner in = new Scanner(System.in);
         int i = in.nextInt();	//number
         int n = in.nextInt();	//times
-        while(n--!=0)i+=i;
+        while(n--!=0)
+            i+=i;
         System.out.println(i);
         in.close();
     }
